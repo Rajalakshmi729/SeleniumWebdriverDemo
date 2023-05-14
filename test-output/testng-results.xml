@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="0" failed="0" skipped="13">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-13T21:16:55 IST" name="Default suite" finished-at="2023-05-13T21:16:55 IST" duration-ms="192">
+    <groups>
+      <group name="Car">
+        <method signature="TestNGGroup.Bajaj()[pri:0, instance:TestNG.TestNGGroup@72057ecf]" name="Bajaj" class="TestNG.TestNGGroup"/>
+        <method signature="TestNGGroup.mahindra()[pri:0, instance:TestNG.TestNGGroup@72057ecf]" name="mahindra" class="TestNG.TestNGGroup"/>
+      </group> <!-- Car -->
+      <group name="Largest Asian Country">
+        <method signature="TestNGPriority.India()[pri:2, instance:TestNG.TestNGPriority@6973b51b]" name="India" class="TestNG.TestNGPriority"/>
+        <method signature="TestNGPriority.Nepal()[pri:3, instance:TestNG.TestNGPriority@6973b51b]" name="Nepal" class="TestNG.TestNGPriority"/>
+        <method signature="TestNGPriority.Russia()[pri:0, instance:TestNG.TestNGPriority@6973b51b]" name="Russia" class="TestNG.TestNGPriority"/>
+        <method signature="TestNGPriority.china()[pri:1, instance:TestNG.TestNGPriority@6973b51b]" name="china" class="TestNG.TestNGPriority"/>
+      </group> <!-- Largest Asian Country -->
+    </groups>
+    <test started-at="2023-05-13T21:16:55 IST" name="Default test" finished-at="2023-05-13T21:16:55 IST" duration-ms="192">
+      <class name="TestNG.TestNG2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG.TestNG2@5f058f00]" started-at="2023-05-13T21:16:55 IST" name="beforeClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992815874" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.TestNG2@5f058f00]" started-at="2023-05-13T21:16:55 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992815878" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:TestNG.TestNG2@5f058f00]" started-at="2023-05-13T21:16:55 IST" name="test1" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.TestNG2@5f058f00]" started-at="2023-05-13T21:16:55 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992815888" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.TestNG2@5f058f00]" started-at="2023-05-13T21:16:55 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992815895" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:TestNG.TestNG2@5f058f00]" started-at="2023-05-13T21:16:55 IST" name="test2" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.TestNG2@5f058f00]" started-at="2023-05-13T21:16:55 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992815902" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.TestNG2@5f058f00]" started-at="2023-05-13T21:16:55 IST" name="afterClass" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992815904" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG.TestNG2 -->
+      <class name="TestNG.TestNGGroup">
+        <test-method signature="Bajaj()[pri:0, instance:TestNG.TestNGGroup@72057ecf]" started-at="2023-05-13T21:16:55 IST" name="Bajaj" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bajaj -->
+        <test-method signature="mahindra()[pri:0, instance:TestNG.TestNGGroup@72057ecf]" started-at="2023-05-13T21:16:55 IST" name="mahindra" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mahindra -->
+        <test-method signature="sedan()[pri:0, instance:TestNG.TestNGGroup@72057ecf]" started-at="2023-05-13T21:16:55 IST" name="sedan" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sedan -->
+      </class> <!-- TestNG.TestNGGroup -->
+      <class name="TestNG.TestNG1">
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:TestNG.TestNG1@55b7a4e0]" started-at="2023-05-13T21:16:55 IST" name="setUpDriver" finished-at="2023-05-13T21:16:55 IST" duration-ms="128" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestNG.TestNG1@55b7a4e0]" started-at="2023-05-13T21:16:55 IST" name="launchURL" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992815788" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="getTittle()[pri:0, instance:TestNG.TestNG1@55b7a4e0]" started-at="2023-05-13T21:16:55 IST" name="getTittle" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTittle -->
+        <test-method is-config="true" signature="testResult()[pri:0, instance:TestNG.TestNG1@55b7a4e0]" started-at="2023-05-13T21:16:55 IST" name="testResult" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992815967" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResult -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNG.TestNG1@55b7a4e0]" started-at="2023-05-13T21:16:56 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992816441" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNG.TestNG1 -->
+      <class name="Actions.ActionKeyboardEvents">
+        <test-method signature="keyBoardEvents_whenSuccess()[pri:0, instance:Actions.ActionKeyboardEvents@1afd44cb]" started-at="2023-05-13T21:16:55 IST" name="keyBoardEvents_whenSuccess" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyBoardEvents_whenSuccess -->
+      </class> <!-- Actions.ActionKeyboardEvents -->
+      <class name="TestNG.TestNGPriority">
+        <test-method signature="Russia()[pri:0, instance:TestNG.TestNGPriority@6973b51b]" started-at="2023-05-13T21:16:55 IST" name="Russia" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Russia -->
+        <test-method signature="china()[pri:1, instance:TestNG.TestNGPriority@6973b51b]" started-at="2023-05-13T21:16:55 IST" name="china" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- china -->
+        <test-method signature="India()[pri:2, instance:TestNG.TestNGPriority@6973b51b]" started-at="2023-05-13T21:16:55 IST" name="India" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- India -->
+        <test-method signature="Nepal()[pri:3, instance:TestNG.TestNGPriority@6973b51b]" started-at="2023-05-13T21:16:55 IST" name="Nepal" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nepal -->
+      </class> <!-- TestNG.TestNGPriority -->
+      <class name="Robot.RobotFileUpload">
+        <test-method signature="fileUpload()[pri:0, instance:Robot.RobotFileUpload@192d43ce]" started-at="2023-05-13T21:16:55 IST" name="fileUpload" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUpload -->
+      </class> <!-- Robot.RobotFileUpload -->
+      <class name="SeleniumWaits.ImplicitWait">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumWaits.ImplicitWait@1ab3a8c8]" started-at="2023-05-13T21:16:55 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992815909" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUntitled()[pri:0, instance:SeleniumWaits.ImplicitWait@1ab3a8c8]" started-at="2023-05-13T21:16:55 IST" name="testUntitled" finished-at="2023-05-13T21:16:55 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: XP
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'OZOLE', ip: '192.168.137.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: FirefoxDriver
+at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:95)
+at java.base/java.util.Optional.orElseGet(Optional.java:364)
+at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:199)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.withOptions(GeckoDriverService.java:180)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:206)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:176)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:154)
+at TestNG.TestNG1.setUpDriver(TestNG1.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:327)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUntitled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumWaits.ImplicitWait@1ab3a8c8]" started-at="2023-05-13T21:16:55 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1683992815925" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumWaits.ImplicitWait -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
